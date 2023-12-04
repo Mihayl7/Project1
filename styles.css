@@ -1,0 +1,89 @@
+*{
+    margin: 0;
+    padding: 0%;
+    font-family:"Roboto Condensed", sans-serif;
+}
+body{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background-size: cover;
+    background-position: center;
+}
+
+.login{
+    width: 310px;
+    background:transparent;
+    backdrop-filter: blur(5px);
+    color: #cfcdcd;
+    border-radius: 10px;
+    padding: 5px 20px;
+}
+.front{
+    font-size: 25px;
+    text-align: center;
+    color: #314465;
+    padding: 30px;
+    
+}
+.tickets{
+    width: 98%; ancho;
+    height: 35px; altura;
+    margin: 10px 0;
+
+    background: transparent;
+    border: none;
+    outline: none;
+    border: 1px solid rgba(255, 255, 255, 2);
+    border-radius: 13px;
+    font-size: 15px;
+    color: #b4d3e3;
+    padding: 2px;
+}
+.recover{
+    display: flex;
+    justify-content: space-between;
+    font-size: 13px;
+    margin:5px 0 15px;
+}
+.recover a{
+    color: rgb(95, 200, 200);
+    text-decoration: none;
+}
+.recover a:hover{
+    text-decoration: underline;
+}
+.button{
+    width: 100%;
+    height: 40px;
+    border: none;
+    outline: none;
+    border-radius: 50px;
+    font-size:15px ;
+    color: #000000;
+    box-shadow: 0 0 3px rgba(0, 0, 0, 1);
+    cursor: pointer;
+    background: #ffffff;
+}
+.button:hover{
+    background-color: #214688;
+}
+.register p{
+    font-size: 13px;
+    text-align: center;
+    margin: 10px 0 20px;
+}
+.register a{
+    color: rgb(95, 200, 200);
+    text-decoration: none;
+}
+.register a:hover{
+    text-decoration: underline;
+}
+.video{
+    position: fixed;
+    width: auto;
+    height: auto;
+    z-index: 0;
+}
